@@ -489,11 +489,11 @@ its voodoo magic to click an unclickable element which leads to confusion becaus
   //   siteClean()
   // })
 
-  // /** fails without waiting 100 ms for the Create Project button (even tho it's right there) */
-  // it('should create project with default wizard', function() {
-  // loadAi()
-  //   createProject()
-  // })
+  /** fails without waiting 100 ms for the Create Project button (even tho it's right there) */
+  it('should create project with default wizard', function() {
+  loadAi()
+    createProject()
+  })
 
 
   //works
